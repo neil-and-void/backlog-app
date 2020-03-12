@@ -1,0 +1,33 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'backlog/style.css' %}">
+<div class="container">
+    
+
+    {% for message in messages %}
+        <h3>{{ message }}</h3>
+    {% endfor %}
+
+    <form action="register" method="POST">
+        {% csrf_token %}
+        <br>
+        username
+        <br>
+        <input class='input' type="text" name="username">
+        <br>
+        Email
+        <br>
+        <input class='input' type="email" name="email">
+        <br>
+        password
+        <br>
+        <input class='input' type="password" name="password">
+        <br>
+        re-enter password
+        <br>
+        <input class='input' type="password" name="confirm_password">
+        <br><br>
+        <input class='button' type="submit" value="register">
+    </form>
+    
+        <body>have an account? </body><a href='{% url 'backlog:login' %}'>Login</a>
+</div>

@@ -1,0 +1,17 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'backlog/style.css' %}">
+<h1 class='project'>Projects</h1>
+<div class='projectSpace'>
+    <ul>
+    {% for project in project_list %}
+        <li > 
+            <a class="projectLink" href="{% url 'frontend:backlog-project-board' project.projectId  %}"> {{ project.projectName }} </a>
+        </li>
+    {% endfor %}
+    </ul>
+    <form class="projectControls" method="POST">
+        {% csrf_token %}
+        <input class='input' type="text" name="newProjectName"></input>
+        <button class='button'>Add New Project</button>
+    </form>
+</div>
