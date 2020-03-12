@@ -25,7 +25,7 @@ SECRET_KEY = '-!@loe&a5y$nl3ym#x=%^jv)sm_b2z!f6i4&v)m#pozz=f-x5m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://django-react-backlog-app.herokuapp.com/']
 
 
 # Application definition
