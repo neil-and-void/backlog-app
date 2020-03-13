@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-!@loe&a5y$nl3ym#x=%^jv)sm_b2z!f6i4&v)m#pozz=f-x5m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://django-react-backlog-app.herokuapp.com/']
+ALLOWED_HOSTS = ['djangowebsiteenv.eba-fmicp6j2.us-west-2.elasticbeanstalk.com','127.0.0.1']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'frontend',
     'rest_framework',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -125,4 +126,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 STATIC_URL = '/static/'
