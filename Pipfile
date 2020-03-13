@@ -10,7 +10,7 @@ verify_ssl = true
 django-heroku = "*"
 gunicorn = "*"
 djangorestframework = "*"
-whitenoise = "*"
+whitenoise = "==4"
 psycopg2 = "*"
 
 [requires]
