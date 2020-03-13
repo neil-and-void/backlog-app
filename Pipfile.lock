@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6abcb98a1599d2213b47cc269102ab0bde799d6737b07baff26f7ecf4e51e318"
+            "sha256": "c619e00fb487e2069ea44da6c43a55a07b763178ffafdfa731adb8192ea9b63b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -193,6 +193,14 @@
             ],
             "index": "pypi",
             "version": "==3.0"
+        },
+        "django-heroku": {
+            "hashes": [
+                "sha256:2bc690aab89eedbe01311752320a9a12e7548e3b0ed102681acc5736a41a4762",
+                "sha256:6af4bc3ae4a9b55eaad6dbe5164918982d2762661aebc9f83d9fa49f6009514e"
+            ],
+            "index": "pypi",
+            "version": "==0.3.1"
         },
         "djangorestframework": {
             "hashes": [
@@ -506,6 +514,13 @@
             ],
             "index": "pypi",
             "version": "==0.57.0"
+        },
+        "whitenoise": {
+            "hashes": [
+                "sha256:0f9137f74bd95fa54329ace88d8dc695fbe895369a632e35f7a136e003e41d73",
+                "sha256:62556265ec1011bd87113fb81b7516f52688887b7a010ee899ff1fd18fd22700"
+            ],
+            "version": "==5.0.1"
         },
         "zipp": {
             "hashes": [
