@@ -25,7 +25,7 @@ SECRET_KEY = '-!@loe&a5y$nl3ym#x=%^jv)sm_b2z!f6i4&v)m#pozz=f-x5m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangowebsiteenv.eba-fmicp6j2.us-west-2.elasticbeanstalk.com','127.0.0.1']
+ALLOWED_HOSTS = ['https://django-react-backlog-app.herokuapp.com/','127.0.0.1']
 
 CSRF_COOKIE_SECURE = True
 
