@@ -27,11 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://django-react-backlog-app.herokuapp.com/','127.0.0.1']
 
-CSRF_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 
-SESSION_COOKIE_SECURE = True
+# SESSION_COOKIE_SECURE = True
 
-SECURE_SSL_REDIRECT = True
+# SECURE_SSL_REDIRECT = True
 
 # scary stuff
 # SECURE_REFERRER_POLICY = ['same-origin']
