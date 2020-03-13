@@ -27,6 +27,21 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['djangowebsiteenv.eba-fmicp6j2.us-west-2.elasticbeanstalk.com','127.0.0.1']
 
+CSRF_COOKIE_SECURE = True
+
+SESSION_COOKIE_SECURE = True
+
+SECURE_SSL_REDIRECT = True
+
+# scary stuff
+# SECURE_REFERRER_POLICY = ['same-origin']
+
+# SECURE_HSTS_SECONDS = 100
+
+# SECURE_HSTS_PRELOAD = True
+
+# SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+
 
 # Application definition
 
@@ -56,9 +71,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'mywebsite.urls'
 
-CSRF_COOKIE_SECURE = True
 
-SESSION_COOKIE_SECURE = True
 
 TEMPLATES = [
     {
@@ -128,3 +141,5 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
+
+
