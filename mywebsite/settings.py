@@ -26,17 +26,16 @@ SECRET_KEY = '-!@loe&a5y$nl3ym#x=%^jv)sm_b2z!f6i4&v)m#pozz=f-x5m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['django-react-backlog-app.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['django-react-backlog-app.herokuapp.com']
 
-CSRF_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 
-SESSION_COOKIE_SECURE = True
+# SESSION_COOKIE_SECURE = True
 
-SECURE_SSL_REDIRECT = True
+# SECURE_SSL_REDIRECT = True
 
-# scary stuff
+# # scary stuff
 # SECURE_REFERRER_POLICY = ['same-origin']
-
 # SECURE_HSTS_SECONDS = 100
 
 # SECURE_HSTS_PRELOAD = True
