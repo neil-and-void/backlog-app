@@ -1,2 +1,2 @@
 # website
-Personal website for displaying my portfolio as well as deploying web apps on
+personal website that hosts my backlog web app made with Django and React
