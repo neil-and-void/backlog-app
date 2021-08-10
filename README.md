@@ -1,5 +1,5 @@
 # website
-personal website that hosts my backlog web app made with
+A simplified version of Atlassian's Jira Sprint board to manage my projects
 # Technologies
 * React
 * Django
