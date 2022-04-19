@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c619e00fb487e2069ea44da6c43a55a07b763178ffafdfa731adb8192ea9b63b"
+            "sha256": "7125341cd796a303a3a022896f68a4285f1ced201882888af5e24f70437f391b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,6 +44,7 @@
                 "sha256:0258f143f3de96b7c14f762c770f5fc56ccd72f8a1857a451c1cd9a655d9ac89",
                 "sha256:0b0069c752ec14172c5f78208f1863d7ad6755a6fae6fe76ec2c80d13be41e42",
                 "sha256:19a4b72a6ae5bb467fea018b825f0a7d917789bcfe893e53f15c92805d187294",
+                "sha256:436a487dec749bca7e6e72498a75a5fa2433bda13bac91d023e18df9089ae0b8",
                 "sha256:5432dd7b34107ae8ed6c10a71b4397f1c853bd39a4d6ffa7e35f40584cffd161",
                 "sha256:6305557019906466fc42dbc53b46da004e72fd7a551c044a827e572c82191752",
                 "sha256:69361315039878c0680be456640f8705d76cb4a3a3fe1e057e0f261b74be4b31",
@@ -188,11 +189,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:6f857bd4e574442ba35a7172f1397b303167dae964cf18e53db5e85fe248d000",
-                "sha256:d98c9b6e5eed147bc51f47c014ff6826bd1ab50b166956776ee13db5a58804ae"
+                "sha256:9bc7aa619ed878fedba62ce139abe663a147dccfd20e907725ec11e02a1ca225",
+                "sha256:d58d8394036db75a81896037d757357e79406e8f68816c3e8a28721c1d9d4c11"
             ],
             "index": "pypi",
-            "version": "==3.0"
+            "version": "==3.0.14"
         },
         "django-heroku": {
             "hashes": [
@@ -517,10 +518,10 @@
         },
         "whitenoise": {
             "hashes": [
-                "sha256:0f9137f74bd95fa54329ace88d8dc695fbe895369a632e35f7a136e003e41d73",
-                "sha256:62556265ec1011bd87113fb81b7516f52688887b7a010ee899ff1fd18fd22700"
+                "sha256:05ce0be39ad85740a78750c86a93485c40f08ad8c62a6006de0233765996e5c7",
+                "sha256:05d00198c777028d72d8b0bbd234db605ef6d60e9410125124002518a48e515d"
             ],
-            "version": "==5.0.1"
+            "version": "==5.2.0"
         },
         "zipp": {
             "hashes": [
